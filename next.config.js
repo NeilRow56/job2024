@@ -11,15 +11,18 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "img.clerk.com",
+        protocol: 'https',
+        hostname: 'img.clerk.com',
       },
       {
-        protocol: "https",
-        hostname: "images.unsplash.com",
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        hostname: 'rqcoa3ubmzn9qpsj.public.blob.vercel-storage.com',
       },
     ],
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
